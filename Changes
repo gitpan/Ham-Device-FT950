@@ -1,0 +1,6 @@
+Revision history for Perl extension Ham::Device::FT950.
+
+0.01  Wed Jan  7 21:34:41 2009
+	- original version; created by h2xs 1.23 with options
+		-AX -n Ham::Device::FT950
+
