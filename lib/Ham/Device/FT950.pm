@@ -13,7 +13,7 @@ our @EXPORT = qw();
 
 our @EXPORT_OK = qw();
 
-our $VERSION = '0.29.3 ';
+our $VERSION = '0.29.4 ';
 #Version .23 starts OO work.
 
 my ($result, %rig_mode, %inv_rig_mode, %band, %inv_band);
@@ -685,6 +685,7 @@ Ham::Device::FT950 - Functions to Communicate with Yaesu FT-950
              databits    => 8,
              parity      => "none",            
              handshake   => "rts",
+             lockfile    => 1,
              read_char_time  => 0,
              read_const_time => 20           
   );
@@ -885,7 +886,7 @@ Tim Gimmel, E<lt>ky4j@arrl.netE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2008-2009 by Tim Gimmel
+Copyright (C) 2008-2010 by Tim Gimmel
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.8 or,
